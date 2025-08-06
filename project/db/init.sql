@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS user (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100)
+);
+
+INSERT INTO user (name) VALUES ('Alice'), ('Bob');
